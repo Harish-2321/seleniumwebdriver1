@@ -22,6 +22,8 @@ public class IamXLogin {
 		WebElement	login = driver.findElement(By.xpath("//button[@id=':r1:']"));
 		login.click();
 		
+		// need  lot of practice to get real time to knowledge
+		
 		
 		
 		 WebElement otpField = driver.findElement(By.xpath("//input[contains(@aria-label,'Digit')]"));
